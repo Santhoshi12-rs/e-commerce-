@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy | Products</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>ShopEasy</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="product-header">
+
+            <h2>Our Products</h2>
+
+            <input type="text" id="searchInput" placeholder="Search products...">
+
+            <select id="categoryFilter">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="fashion">Fashion</option>
+                <option value="books">Books</option>
+            </select>
+
+        </section>
+
+        <section id="productsContainer" class="products-grid">
+
+            <!-- Products loaded dynamically -->
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ShopEasy</p>
+    </footer>
+
+    <script src="js/products.js"></script>
+
+</body>
+
+</html>
